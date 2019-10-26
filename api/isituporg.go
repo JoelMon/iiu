@@ -28,12 +28,12 @@ import (
 func getInfo(url string) int {
 
 	type Message struct {
-		domain        string
-		port          int
-		status_code   int
-		response_ip   string
-		response_code int
-		response_time float64
+		domain       string
+		port         int
+		statusCode   int
+		responseIP   string
+		responseCode int
+		responseTime float64
 	}
 
 	var m Message
